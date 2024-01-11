@@ -13,4 +13,4 @@ client.on('ready', (c) => {
 	console.log(`Planner Peon is Ready!`);
 });
 
-client.login("MTE5NTEwMDM1MzE4MDQ3NTQwMw.GDrFZq.gkRNmnstivqmOjNr8bgRidyRjmNyq_-jwTrq7k");
+client.login("MTE5NTEwMDM1MzE4MDQ3NTQwMw.GOx0v7.rEWHr79JxgTzUs4GUOrHAMPw-g5NFGNgEdUcAA");
