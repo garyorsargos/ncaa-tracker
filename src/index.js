@@ -1,4 +1,5 @@
 const {Client, IntentsBitField} = require("discord.js");
+require('dotenv').config();
 
 const client = new Client({
 	intents: [
@@ -13,4 +14,4 @@ client.on('ready', (c) => {
 	console.log(`Planner Peon is Ready!`);
 });
 
-client.login("MTE5NTEwMDM1MzE4MDQ3NTQwMw.GOx0v7.rEWHr79JxgTzUs4GUOrHAMPw-g5NFGNgEdUcAA");
+client.login(`${process.env.API_KEY}`);
