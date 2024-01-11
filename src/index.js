@@ -1,9 +1,16 @@
-const {Client, IntentsBitField} = require(discord.js);
+const {Client, IntentsBitField} = require("discord.js");
 
 const client = new Client({
 	intents: [
 		IntentsBitField.Flags.Guilds,
 		IntentsBitField.Flags.GuildMembers,
 		IntentsBitField.Flags.GuildMessages,
+		IntentsBitField.Flags.MessageContent
 	]
-}) 
+})
+
+client.on('ready', (c) => {
+	console.log(`Planner Peon is Ready!`);
+});
+
+client.login("MTE5NTEwMDM1MzE4MDQ3NTQwMw.GDrFZq.gkRNmnstivqmOjNr8bgRidyRjmNyq_-jwTrq7k");
