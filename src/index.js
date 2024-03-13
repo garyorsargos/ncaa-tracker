@@ -1,6 +1,7 @@
 const {Client, IntentsBitField} = require("discord.js");
 require('dotenv').config();
 
+//Handle client flags
 const client = new Client({
 	intents: [
 		IntentsBitField.Flags.Guilds,
